@@ -3,10 +3,10 @@
  * webpack base config
  */
 import * as CONFIG from './config';
-import { esLintPlugin, htmlWebpackPlugin } from './plugins';
+import { esLintPlugin } from './plugins';
 import entryLoader from './utils/entryLoader';
 
-const entries = entryLoader(CONFIG.ENTRY_PATH, '**/*.tsx');
+const entries = entryLoader(CONFIG.ENTRY_PATH, '**/*.ts');
 
 export default {
   entry: entries,
@@ -28,8 +28,6 @@ export default {
   },
   plugins: [
     esLintPlugin,
-    htmlWebpackPlugin,
   ],
-  optimization: CONFIG.optimization,
   devServer: CONFIG.devServer,
 };

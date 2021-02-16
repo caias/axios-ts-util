@@ -24,6 +24,11 @@ function production() {
         extractComments: false,
       })],
     },
+    output: {
+      path: BUILD.BUILD_PATH,
+      filename: `[name]${BUILD.FILENAME_SUFFIX}`,
+      libraryTarget: 'umd',
+    },
   });
 }
 

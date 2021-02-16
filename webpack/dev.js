@@ -22,7 +22,7 @@ function development() {
     // entry public path
     output: {
       path: BUILD.BUILD_PATH,
-      filename: `[name]${BUILD.FILENAME_SUFFIX}`,
+      filename: '[name].js',
       libraryTarget: 'umd',
     },
   });

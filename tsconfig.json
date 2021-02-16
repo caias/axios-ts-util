@@ -9,9 +9,6 @@
       "./src/types"
     ],
     "types": [
-      "node",
-      "react",
-      "react-dom",
       // "react-redux",
     ],
     "module": "esnext",

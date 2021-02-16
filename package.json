@@ -10,7 +10,8 @@
   ],
   "main": "webpack.config.babel.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack serve",
+    "start": "NODE_ENV=development webpack serve",
+    "dev": "NODE_ENV=development webpack",
     "prod": "NODE_ENV=production webpack"
   },
   "repository": "https://github.com/caias/webpack5-ts-test.git",
@@ -23,6 +24,7 @@
     "@babel/register": "7.12.13",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
+    "axios": "^0.21.1",
     "babel-loader": "8.2.2",
     "eslint-plugin-react": "7.22.0",
     "eslint-webpack-plugin": "2.5.1",
