@@ -1,2 +1,2 @@
-# webpack5-study
-webpack5 study and make base template
+# axios typescript utility
+my axios module with typescript 
